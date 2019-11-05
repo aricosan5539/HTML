@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página web Grupal</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+</head>
+
+<body class="hidden">
+    <div class="centrado" id="onload">
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
+    </div>
+    <header>
+        <nav id="nav" class="nav1">
+            <div class="contenedor-nav">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="enlaces" id="enlaces">
+                    <a href="#" id="enlace-inicio" class="btn-header">Inicio</a>
+                    <a href="#" id="enlace-hospedaje" class="btn-header">Hospedaje</a>
+                    <a href="#" id="enlace-Comidatipica" class="btn-header">Comida Tipica</a>
+                    <a href="#" id="enlace-turismo" class="btn-header">Turismo</a>
+                    <a href="#" id="enlace-contacto" class="btn-header">Contacto</a>
+                </div>
+                <div class="icono" id="open">
+                    <span>&#9776;</span>
+                </div>
+            </div>
+        </nav>
+        <div class="textos">
+            <h1>Cundinamarca para el Mundo</h1>
+            <h2>Agencia de Turismo</h2>
+        </div>
+    </header>
+    <main>
+        <section class="team contenedor">
+            <h3>Donde Hospedarse</h3>
+            <p class="after">Conoce los mejores lugares de Cundinamarca para alojarte </p>
+            <div class="card">
+                <div class="content-card">
+                    <div class="hospedaje">
+                        <img src="img/hotelanapoima.jpg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Hotel Gyrola</h4>
+                        <p>El Gyrola Birding está situado en La Mesa y ofrece restaurante, piscina al aire libre, bar y jardín. Hay una terraza, conexión Wi-Fi gratuita y aparcamiento privado gratuito..</p>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="hospedaje">
+                        <img src="img/oasisgirardot.jpg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Hotel Oasis</h4>
+                        <p>El Hotel Oasis de la Colina ofrece habitaciones con conexión Wi-Fi gratuita y TV por cable en Girardot, y dispone de 2 piscinas al aire libre y un restaurante. El aparcamiento es gratuito. Se encuentra a 2 km del centro de la ciudad.</p>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="hospedaje">
+                        <img src="img/glampinubaque.jpg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Entrepinos Glamping</h4>
+                        <p>El Entrepinos Glamping está situado en Ubaque y alberga un bar. El establecimiento cuenta con servicio de habitaciones y restaurante. Se ofrece aparcamiento privado por un suplemento.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="enlace-restaurante">
+            <div class="contenedor">
+                <h3>La mejor Gastronomia</h3>
+                <p class="after">No te quedes sin probar</p>
+                <div class="restaurante">
+                    <div class="caja-restaurante">
+                        <img src="img/ajiaco.jpg" alt="">
+                        <h4>Ajiaco Bogotano</h4>
+                        <p>Este es uno de los platos típicos de Cundinamarca.</p>
+                    </div>
+                    <div class="caja-restaurante">
+                        <img src="img/picadita.jpg" alt="">
+                        <h4>La Fritanga</h4>
+                        <p>Este plato se caracteriza por su variedad de texturas y sabores.</p>
+                    </div>
+                    <div class="caja-restaurante">
+                        <img src="img/puchero.jpg" alt="">
+                        <h4>El Puchero</h4>
+                        <p>El Puchero es un plato suculento que generalmente incluye tres tipos de carne.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="work contenedor" id="trabajo">
+            <h3>Nuestros paisajes</h3>
+            <p class="after">Cada paisaje tiene su historia: esa que leemos, esa que soñamos, esa que creamos.</p>
+            <div class="botones-work">
+                <ul>
+                    <li class="filter active" data-nombre='climas'>Climas</li>
+                    <li class="filter" data-nombre='calido'>Calido</li>
+                    <li class="filter" data-nombre='templado'>Templado</li>
+                    <li class="filter" data-nombre='frio'>Frio</li>
+                </ul>
+            </div>
+            <div class="galeria-work">
+                <div class="cont-work calido">
+                    <div class="img-work">
+                        <img src="img/lamesacalido.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>la Mesa</h4>
+                    </div>
+                </div>
+                <div class="cont-work calido">
+                    <div class="img-work">
+                        <img src="img/tequendama.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Tequendama</h4>
+                    </div>
+                </div>
+                <div class="cont-work calido">
+                    <div class="img-work">
+                        <img src="img/girardot.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Girardot</h4>
+                    </div>
+                </div>
+                <div class="cont-work templado">
+                    <div class="img-work">
+                        <img src="img/villeta.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Villeta</h4>
+                    </div>
+                </div>
+                <div class="cont-work templado">
+                    <div class="img-work">
+                        <img src="img/guatavita.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Guatavita</h4>
+                    </div>
+                </div>
+                <div class="cont-work templado">
+                    <div class="img-work">
+                        <img src="img/suesca.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Suesca</h4>
+                    </div>
+                </div>
+                <div class="cont-work frio">
+                    <div class="img-work">
+                        <img src="img/lacalera.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>La Calera</h4>
+                    </div>
+                </div>
+                <div class="cont-work frio">
+                    <div class="img-work">
+                        <img src="img/chia.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Chia</h4>
+                    </div>
+                </div>
+                <div class="cont-work frio">
+                    <div class="img-work">
+                        <img src="img/tabio.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Tabio</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contacto">
+        <div class="footer contenedor">
+            <div class="marca-logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="iconos">
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-github"></i>
+            </div>
+            <h3>El futuro pertenece a quienes creen en la belleza de sus sueños</h3>
+        </div>
+
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/filtro.js"></script>
+</body>
+</html>
